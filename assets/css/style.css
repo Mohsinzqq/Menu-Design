@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: candara;
+}
+body{
+	background-color: grey;
+}
+.container{
+	width: 900px;
+	margin: auto;
+
+}
+.header{
+	background-color: #fff;
+	padding: 13px 0px;
+}
+.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header .logo img{
+	width: 40px;
+	transform: translate(134px, -5px);
+
+}
+.header .logo{
+	width: 35%;
+	float: left;
+}
+.header .menu{
+	width: 65%;
+	float: left;
+}
+.header .menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0px 8px ;
+	background-color: black;
+	border-radius: 3px;
+	padding: 5px 5px;
+
+}
+.header .menu ul li:hover{
+	background-color: green;
+}
+.header .menu ul {
+	text-align: right;
+}
+.header .menu ul li a{
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+/* header style end */
+
+.banner{
+	height: 500px;
+	background-image: url("../img/training center.jpg");
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	position: relative;
+}
+.banner .banner-content{
+	width: 450px;
+}
+.banner-content{
+	position: absolute;
+	text-align: center;
+	top: 160px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+.banner-content h1 {
+	color: white;
+	font-family: Cambria;
+	margin: 10px auto;
+	transition: 2s;
+}
+.banner-content h1:hover{
+	font-size: 34px;
+	cursor: pointer;
+	color: red;
+}
+.banner-content p{
+	color: yellow;
+	text-align: justify;
+	font-family: Segoe Script;
+}
+
+
+/* banner style end */
+.team{
+	background-color: #fff;
+
+}
+.team .contain{
+	text-align: center;
+	padding: 20px 0px;
+	margin: 10px auto;
+	width: 950px;
+
+	
+}
+/* messi start */
+.team .contain .messi img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: messi 3s;
+}
+@keyframes messi {
+	0%{
+		transform: scale(0, 0);
+	}
+	100%{
+		transform: scale(1.2, 1.2);
+	}
+	
+}
+
+.team .contain .messi h1{
+	font-family: Cambria;
+	color: green;
+	transition: 1s;
+}
+.team .contain .messi h1:hover{
+	color: chocolate;
+}
+.team .contain .messi p{
+	font-family: Segoe Script;
+	color: red;
+	padding: 2px;
+}
+
+.team .contain .messi {
+	width: 33.33%;
+	float: left;
+}
+
+/* neymar start */
+
+
+.team .contain .neymar img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: neymar 3s;
+}
+@keyframes neymar {
+	0%{
+		transform: scale(0, 0);
+	}
+	100%{
+		transform: scale(1.4, 1.4) rotate(360deg);
+	}
+	
+}
+
+.team .contain .neymar h1{
+	font-family: Cambria;
+	color: green;
+	transition: 1s;
+}
+.team .contain .neymar h1:hover{
+	color: chocolate;
+}
+.team .contain .neymar p{
+	font-family: Segoe Script;
+	color: red;
+	padding: 2px;
+}
+.team .contain .neymar {
+	width: 33.33%;
+	float: left;
+}
+
+/* ronaldo start */
+
+
+.team .contain .ronaldo img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: name 3s;
+}
+@keyframes name {
+	0%{
+		transform: scale(0, 0);
+	}
+	100%{
+		transform: scale(1.2, 1.2);
+	}
+	
+}
+.team .contain .ronaldo h1{
+	font-family: Cambria;
+	color: green;
+	transition: 1s;
+}
+.team .contain .ronaldo h1:hover{
+	color: chocolate;
+}
+.team .contain .ronaldo p{
+	font-family: Segoe Script;
+	color: red;
+	padding: 2px;
+}
+
+.team .contain .ronaldo {
+	width: 33.33%;
+	float: left;
+}
+.contain:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
